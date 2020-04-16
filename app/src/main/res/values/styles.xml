@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+		<item name="titleTextColor">@android:color/white</item>
+		<item name="colorControlNormal">@android:color/white</item>
+		<item name="windowActionModeOverlay">true</item>
+        <item name="actionModeBackground">@color/colorPrimary</item>
+    </style>
+	
+	<style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+	
+</resources>
