@@ -1917,7 +1917,8 @@ public class FreeScrollingTextField extends View implements Document.TextFieldMe
 	}
 	
 	public void setTextSize(int pix){
-		if(pix <= 8||pix >= 80||pix==_brush.getTextSize()){
+        //设置缩放最小/最大字号
+		if(pix <= 20||pix >= 80||pix==_brush.getTextSize()){
 			return;
 		}
 		double oldHeight=rowHeight();
